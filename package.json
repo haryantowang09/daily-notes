@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "postinstall": "if test \"$NODE_ENV\" = \"production\" ; then npm run build ; fi ",
+    "start": "node server.js",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "postinstall": "npm run build",
-    "start": "node server.js",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit"
   },
@@ -46,5 +46,9 @@
       "vue-cli-service lint",
       "git add"
     ]
+  },
+  "engines": {
+    "node": ">=8.9.1",
+    "npm": ">=5.3.0"
   }
 }
