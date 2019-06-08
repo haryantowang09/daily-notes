@@ -1,4 +1,4 @@
-# wang-diary
+# Wang Diary
 
 ## Project setup
 ```

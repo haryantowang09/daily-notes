@@ -5,3 +5,8 @@ const app = express()
 app.use(serveStatic(path.join(__dirname, 'dist')))
 const port = process.env.PORT || 5000
 app.listen(port)
+
+console.log('Server started')
+
+// package.json
+// "postinstall": "if test \"$NODE_ENV\" = \"production\" ; then npm run build ; fi ",

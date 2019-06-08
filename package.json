@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "postinstall": "if test \"$NODE_ENV\" = \"production\" ; then npm run build ; fi ",
+    "postinstall": "npm run build",
     "start": "node server.js",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -48,7 +48,8 @@
     ]
   },
   "engines": {
-    "node": ">=8.9.1",
-    "npm": ">=5.3.0"
+    "node": ">=12.4.0",
+    "npm": ">=6.9.0",
+    "yarn": ">=1.16.0"
   }
 }
