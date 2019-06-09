@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "postinstall": "npm run build",
+    "heroku-postbuild": "node server.js",
     "start": "node server.js",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
