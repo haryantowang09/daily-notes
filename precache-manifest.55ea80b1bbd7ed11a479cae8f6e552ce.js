@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "199a0b0e9a0aa4aa0305",
-    "url": "/wang-diary/js/about~e78f3046.87f7f483.js"
+    "revision": "a917989e03a279f59ea8",
+    "url": "/wang-diary/js/about~2653ddd4.0d8bf0d0.js"
   },
   {
-    "revision": "b83e9041a485c63d89c5",
+    "revision": "60cb878a66d21867068c",
     "url": "/wang-diary/css/app~d0ae3f07.53f8bfa6.css"
   },
   {
-    "revision": "b83e9041a485c63d89c5",
-    "url": "/wang-diary/js/app~d0ae3f07.ad8c8084.js"
+    "revision": "60cb878a66d21867068c",
+    "url": "/wang-diary/js/app~d0ae3f07.2d2ab448.js"
   },
   {
     "revision": "7e195b008d5b72dc4c18",
@@ -128,7 +128,7 @@ self.__precacheManifest = [
     "url": "/wang-diary/img/logo.82b9c7a5.png"
   },
   {
-    "revision": "94c62155437d69b1c09f569e79d42010",
+    "revision": "9e2656d2f92a1cacd34ef76d377992f6",
     "url": "/wang-diary/index.html"
   },
   {

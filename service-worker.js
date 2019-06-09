@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/wang-diary/precache-manifest.ed76a0f978ebbbd4cae75cad90174d4f.js"
+  "/wang-diary/precache-manifest.55ea80b1bbd7ed11a479cae8f6e552ce.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "wang-diary"});
