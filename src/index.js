@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './assets/styles/debug.css';
+// import './assets/styles/debug.css';
 import './assets/styles/reset.css';
 import App from './views/App';
 import * as serviceWorker from './serviceWorker';
